@@ -1,0 +1,23 @@
+GWCT_Region,Moor,Count,damage,satellite_estimate,"RF regression, change only","RF classifier, change only","RF regression, change + 2024 levels","RF classifier, change + 2024 levels",Combined (current + RF classifier)
+N.DALES,Geltsdale,Middle,0.0,0.13,0.11,0.0,0.11,0.0,0.06
+N.DALES,Bollihope,Pikestone Fell,0.0,0.14,0.26,0.25,0.3,0.3,0.2
+N.DALES,Crossgill,Dowks,0.0,0.02,0.18,0.19,0.19,0.2,0.1
+N.DALES,Crossgill,Pants,0.0,0.19,0.16,0.1,0.15,0.09,0.15
+N.DALES,Stags Fell,Beacon,0.0,0.08,0.11,0.0,0.12,0.01,0.04
+N.DALES,Edmundbyers,Waskerley,0.0,0.23,0.25,0.25,0.27,0.26,0.24
+N.DALES,Moor House,Trout Beck,0.0,0.55,0.17,0.08,0.18,0.09,0.32
+N.DALES,Moor House,Behind House,0.0,0.1,0.15,0.06,0.15,0.04,0.08
+N.DALES,Crossgill,Greencastles,0.1,0.03,0.24,0.29,0.26,0.31,0.16
+N.DALES,Wemmergill,Close House,0.1,0.2,0.14,0.1,0.14,0.09,0.15
+S.DALES/PEAK,Ramsgill,Raygill,0.2,0.22,0.29,0.28,0.29,0.26,0.25
+N.DALES,Bollihope,Catterick,0.3,0.41,0.43,0.51,0.45,0.53,0.46
+N.DALES,Eggleston,Ever Rigg,0.3,0.31,0.28,0.3,0.27,0.29,0.3
+N.DALES,Eggleston,Blackton,0.3,0.43,0.32,0.36,0.32,0.35,0.4
+NYM,Danby,Low Moor,0.5,0.51,0.44,0.59,0.44,0.58,0.55
+NYM,Westerdale,Tank,0.5,0.54,0.49,0.6,0.48,0.59,0.57
+NYM,Rosedale,Pits,0.6,0.69,0.51,0.67,0.51,0.67,0.68
+S.DALES/PEAK,Dallowgill,Bishops,0.6,0.78,0.45,0.43,0.43,0.42,0.6
+N.DALES,Wemmergill,South Side,0.6,0.37,0.19,0.15,0.19,0.15,0.26
+NYM,Danby,Glaisdale,0.7,0.76,0.51,0.68,0.5,0.68,0.72
+S.DALES/PEAK,Swinton,Potts,0.7,0.78,0.39,0.46,0.36,0.44,0.62
+NYM,Snilesworth,Lodge,0.8,0.92,0.46,0.51,0.43,0.48,0.72

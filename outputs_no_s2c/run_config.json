@@ -1,0 +1,34 @@
+{
+  "polygons": "data/count_areas_v6.gpkg",
+  "moor_field": null,
+  "count_field": null,
+  "only": null,
+  "project": "burn-502316",
+  "seasons": [
+    2024
+  ],
+  "threshold": 0.17,
+  "min_patch_ha": 0.1,
+  "cloud_max": 40,
+  "exclude_s2c": true,
+  "diagnose": false,
+  "images": false,
+  "charts_only": null,
+  "out": "outputs",
+  "tag": "no_s2c",
+  "baseline_window": [
+    "07-01",
+    "10-01"
+  ],
+  "post_window": [
+    "04-16",
+    "07-01"
+  ],
+  "ndvi_min": 0.3,
+  "worldcover_classes": [
+    20,
+    30,
+    90,
+    100
+  ]
+}

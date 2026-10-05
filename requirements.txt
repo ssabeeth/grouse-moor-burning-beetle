@@ -1,0 +1,10 @@
+earthengine-api>=1.0
+geopandas>=0.14
+pandas
+numpy
+matplotlib
+shapely>=2.0
+pyproj
+requests
+pillow
+openpyxl

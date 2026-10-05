@@ -1,0 +1,23 @@
+GWCT_Region,Moor,Count,damage,rule,Random Forest,Extra Trees,"Gradient boosting (histogram, LightGBM-style)",Gradient boosting (classic),SVM (RBF kernel),Logistic regression,main_combined
+N.DALES,Geltsdale,Middle,0.0,0.13,0.0,0.029,0.0,0.0,0.0,0.0,0.065
+N.DALES,Bollihope,Pikestone Fell,0.0,0.14,0.241,0.251,0.169,0.128,0.258,0.165,0.134
+N.DALES,Crossgill,Dowks,0.0,0.02,0.2,0.195,0.106,0.168,0.087,0.228,0.094
+N.DALES,Crossgill,Pants,0.0,0.19,0.099,0.11,0.166,0.138,0.123,0.293,0.164
+N.DALES,Stags Fell,Beacon,0.0,0.08,0.0,0.041,0.0,0.0,0.0,0.0,0.04
+N.DALES,Edmundbyers,Waskerley,0.0,0.23,0.247,0.243,0.157,0.173,0.127,0.152,0.202
+N.DALES,Moor House,Trout Beck,0.0,0.55,0.079,0.104,0.064,0.046,0.052,0.128,0.298
+N.DALES,Moor House,Behind House,0.0,0.1,0.058,0.09,0.009,0.007,0.009,0.033,0.054
+N.DALES,Crossgill,Greencastles,0.1,0.03,0.296,0.319,0.292,0.244,0.265,0.384,0.137
+N.DALES,Wemmergill,Close House,0.1,0.2,0.051,0.041,0.023,0.012,0.017,0.005,0.106
+S.DALES/PEAK,Ramsgill,Raygill,0.2,0.22,0.277,0.244,0.43,0.385,0.468,0.416,0.302
+N.DALES,Bollihope,Catterick,0.3,0.41,0.512,0.528,0.491,0.47,0.516,0.48,0.44
+N.DALES,Eggleston,Ever Rigg,0.3,0.31,0.304,0.284,0.256,0.289,0.242,0.209,0.3
+N.DALES,Eggleston,Blackton,0.3,0.43,0.358,0.339,0.306,0.337,0.34,0.299,0.384
+NYM,Danby,Low Moor,0.5,0.51,0.587,0.585,0.613,0.615,0.607,0.583,0.562
+NYM,Westerdale,Tank,0.5,0.54,0.677,0.71,0.63,0.646,0.623,0.612,0.593
+NYM,Rosedale,Pits,0.6,0.69,0.69,0.715,0.628,0.657,0.616,0.584,0.674
+S.DALES/PEAK,Dallowgill,Bishops,0.6,0.78,0.425,0.327,0.554,0.529,0.565,0.455,0.655
+N.DALES,Wemmergill,South Side,0.6,0.37,0.113,0.082,0.082,0.112,0.102,0.016,0.241
+NYM,Danby,Glaisdale,0.7,0.76,0.688,0.71,0.63,0.648,0.614,0.618,0.704
+S.DALES/PEAK,Swinton,Potts,0.7,0.78,0.46,0.404,0.565,0.564,0.547,0.572,0.672
+NYM,Snilesworth,Lodge,0.8,0.92,0.488,0.444,0.558,0.567,0.587,0.499,0.744

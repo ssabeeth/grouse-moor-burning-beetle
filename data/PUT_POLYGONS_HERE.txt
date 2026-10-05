@@ -1,0 +1,3 @@
+Drop the definitive count area polygons from Phil in this folder.
+Shapefile: include all parts (.shp .shx .dbf .prj, plus .cpg if present).
+GeoPackage, GeoJSON or KML also work.

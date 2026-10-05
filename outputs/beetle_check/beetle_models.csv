@@ -1,0 +1,13 @@
+variant,sites,estimate,n,MAE,bias,within_0.1,within_0.2,spearman
+v0_original,all,calibrated (leave-one-moor-out),23,0.147,-0.002,0.35,0.74,0.7
+v0_original,all,uncalibrated share flagged,23,0.132,0.099,0.52,0.87,0.82
+v0_original,enough images,calibrated (leave-one-moor-out),22,0.133,0.003,0.45,0.77,0.76
+v0_original,enough images,uncalibrated share flagged,22,0.134,0.108,0.5,0.86,0.83
+v1_edges,all,calibrated (leave-one-moor-out),23,0.149,-0.004,0.39,0.74,0.69
+v1_edges,all,uncalibrated share flagged,23,0.123,0.086,0.48,0.87,0.81
+v1_edges,enough images,calibrated (leave-one-moor-out),22,0.125,0.004,0.5,0.77,0.76
+v1_edges,enough images,uncalibrated share flagged,22,0.123,0.095,0.5,0.86,0.81
+v2_edges_evergreen,all,calibrated (leave-one-moor-out),23,0.192,-0.01,0.22,0.61,0.56
+v2_edges_evergreen,all,uncalibrated share flagged,23,0.152,0.102,0.39,0.74,0.77
+v2_edges_evergreen,enough images,calibrated (leave-one-moor-out),22,0.174,-0.004,0.32,0.68,0.63
+v2_edges_evergreen,enough images,uncalibrated share flagged,22,0.151,0.114,0.41,0.73,0.77

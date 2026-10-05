@@ -1,0 +1,2 @@
+procedure,typical_error,within_0.2,within_0.1,rank_r,rank_r_N.DALES_only,vs_rule_90pc
+"nested: best of six chosen inside each fold, averaged with rule",0.105,19,15,0.85,0.59,-0.045 to +0.011

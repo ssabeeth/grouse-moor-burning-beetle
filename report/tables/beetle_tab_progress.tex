@@ -1,0 +1,13 @@
+\begin{tabular}{>{\raggedright\arraybackslash}p{7.2cm}rrrr}
+\toprule
+Estimate & \makecell[r]{Typical\\difference} & \makecell[r]{Within\\0.1} & \makecell[r]{Within\\0.2} & \makecell[r]{Rank\\agreement} \\
+\midrule
+Browning only & 0.27 & 2 & 7 & 0.60 \\
+Browning or greying, beyond the moor-wide change & 0.13 & 11 & 19 & 0.83 \\
++ 20 m margin round burns and cuts (rule-based estimate) & 0.12 & 12 & 19 & 0.81 \\
+\textbf{+ averaged with gradient boosting (final estimate)} & \textbf{0.10} & \textbf{15} & \textbf{19} & \textbf{0.88} \\
+\midrule
+Gradient boosting alone & 0.12 & 10 & 20 & 0.79 \\
+Region average, no satellite data & 0.17 & 4 & 16 & 0.38 \\
+\bottomrule
+\end{tabular}

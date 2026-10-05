@@ -1,0 +1,14 @@
+\begin{tabular}{lrrrrrrrl}
+\toprule
+& \multicolumn{3}{c}{Model alone} & \multicolumn{5}{c}{Averaged with the rule} \\ \cmidrule(lr){2-4}\cmidrule(lr){5-9}Model & \makecell[r]{Typical\\diff.} & \makecell[r]{Within\\0.1} & \makecell[r]{Rank\\$\rho$} & \makecell[r]{Typical\\diff.} & \makecell[r]{Within\\0.1} & \makecell[r]{Within\\0.2} & \makecell[r]{Rank\\$\rho$} & \makecell[l]{90\% interval\\vs rule} \\
+\midrule
+Rule-based estimate only & 0.122 & 12 & 0.81 &  &  &  &  &  \\
+\midrule
+\textbf{Gradient boosting (classic)} & 0.118 & 10 & 0.79 & 0.098 & 15 & 19 & 0.88 & $-$0.053 to $+$0.003 \\
+Gradient boosting (LightGBM style) & 0.122 & 10 & 0.78 & 0.101 & 15 & 20 & 0.87 & $-$0.049 to $+$0.006 \\
+Support vector machine & 0.124 & 11 & 0.78 & 0.102 & 15 & 20 & 0.86 & $-$0.049 to $+$0.008 \\
+Random forest & 0.141 & 12 & 0.78 & 0.109 & 14 & 19 & 0.86 & $-$0.043 to $+$0.013 \\
+Logistic regression & 0.151 & 9 & 0.72 & 0.109 & 13 & 19 & 0.84 & $-$0.043 to $+$0.018 \\
+Extra trees & 0.161 & 9 & 0.71 & 0.118 & 11 & 19 & 0.83 & $-$0.032 to $+$0.022 \\
+\bottomrule
+\end{tabular}

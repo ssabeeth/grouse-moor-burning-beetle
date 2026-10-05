@@ -1,0 +1,24 @@
+GWCT_Region,Moor,Count,damage,min_clear,enough_images,share_used__v1_edges,estimate_v0_original,estimate_v1_edges,estimate_v2_edges_evergreen,share_browned_raw,satellite_estimate,error
+N.DALES,Geltsdale,Middle,0.0,5.8,True,0.9952400331662206,0.14,0.15,0.15,0.33,0.13,0.13
+N.DALES,Bollihope,Pikestone Fell,0.0,3.9,True,0.8173859054899946,0.0,0.0,0.0,0.18,0.14,0.14
+N.DALES,Crossgill,Dowks,0.0,4.5,True,1.0,0.0,0.02,0.11,0.28,0.02,0.02
+N.DALES,Crossgill,Pants,0.0,4.3,True,0.9825117731329013,0.23,0.25,0.3,0.27,0.19,0.19
+N.DALES,Stags Fell,Beacon,0.0,6.8,True,0.9995201717744894,0.0,0.0,0.0,0.04,0.08,0.08
+N.DALES,Edmundbyers,Waskerley,0.0,7.5,True,0.3118418087749728,0.34,0.28,0.28,0.68,0.23,0.23
+N.DALES,Moor House,Trout Beck,0.0,3.6,True,1.0,0.44,0.45,0.52,0.13,0.55,0.55
+N.DALES,Moor House,Behind House,0.0,3.0,True,0.99819588943726,0.12,0.13,0.16,0.17,0.1,0.1
+N.DALES,Crossgill,Greencastles,0.1,5.7,True,1.0,0.0,0.01,0.08,0.26,0.03,-0.07
+N.DALES,Wemmergill,Close House,0.1,6.1,True,1.0,0.21,0.22,0.23,0.45,0.2,0.1
+S.DALES/PEAK,Ramsgill,Raygill,0.2,12.1,True,0.9470339860549564,0.22,0.23,0.18,0.41,0.22,0.02
+N.DALES,Bollihope,Catterick,0.3,5.0,True,0.7048736492047901,0.43,0.42,0.59,0.73,0.41,0.11
+N.DALES,Eggleston,Ever Rigg,0.3,4.5,True,0.6574894831273391,0.25,0.26,0.31,0.51,0.31,0.01
+N.DALES,Eggleston,Blackton,0.3,4.8,True,0.6559468474310663,0.44,0.41,0.45,0.74,0.43,0.13
+N.DALES,Grinton,Long Gill,0.5,1.3,False,0.7278836581034733,0.12,0.04,0.02,0.41,0.37,-0.13
+NYM,Danby,Low Moor,0.5,8.1,True,0.815371078160993,0.41,0.39,0.33,0.82,0.51,0.01
+NYM,Westerdale,Tank,0.5,7.1,True,0.8288164328141524,0.4,0.44,0.34,0.71,0.54,0.04
+NYM,Rosedale,Pits,0.6,8.5,True,0.894621144477882,0.49,0.5,0.48,0.95,0.69,0.09
+S.DALES/PEAK,Dallowgill,Bishops,0.6,14.8,True,0.860781105908785,0.4,0.38,0.2,0.1,0.78,0.18
+N.DALES,Wemmergill,South Side,0.6,7.2,True,0.9455516600315059,0.27,0.28,0.25,0.38,0.37,-0.23
+NYM,Danby,Glaisdale,0.7,7.5,True,0.8045485676300851,0.54,0.54,0.48,0.9,0.76,0.06
+S.DALES/PEAK,Swinton,Potts,0.7,8.1,True,0.9278801061075824,0.57,0.58,0.53,0.43,0.78,0.08
+NYM,Snilesworth,Lodge,0.8,8.2,True,0.42856186374339306,0.74,0.72,0.6,0.73,0.92,0.12

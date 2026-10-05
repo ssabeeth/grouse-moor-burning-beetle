@@ -1,0 +1,79 @@
+Polygons: 29 features | moor field 'Moor' | count field 'Count' | CRS EPSG:27700
+  28 count areas, 4,273 ha total, 16 moors (+ 1 strip rows, 371 ha, kept out of totals)
+  --only kept 6 count areas (the seasonal correction still uses all of them)
+Earth Engine initialised (project burn-502316)
+Season 2017/18 ...
+  66.0 ha managed | 105 post-season scenes | 47s
+Season 2018/19 ...
+  12.3 ha managed | 105 post-season scenes | 42s
+Season 2019/20 ...
+  42.9 ha managed | 114 post-season scenes | 48s
+Season 2020/21 ...
+  11.6 ha managed | 108 post-season scenes | 65s
+Season 2021/22 ...
+  67.4 ha managed | 108 post-season scenes | 64s
+Season 2022/23 ...
+  52.4 ha managed | 105 post-season scenes | 49s
+Season 2023/24 ...
+  16.0 ha managed | 106 post-season scenes | 109s
+Season 2024/25 ...
+  83.6 ha managed | 156 post-season scenes | 131s
+Season 2025/26 ...
+  12.0 ha managed | 162 post-season scenes | 78s
+Wrote outputs_images/results_by_season.csv (54 rows)
+Charts in outputs_images/figures; summaries in outputs_images
+  [1/54] Bollihope_PikestoneFell 2017/18
+  [2/54] Bollihope_PikestoneFell 2018/19
+  [3/54] Bollihope_PikestoneFell 2019/20
+  [4/54] Bollihope_PikestoneFell 2020/21
+  [5/54] Bollihope_PikestoneFell 2021/22
+  [6/54] Bollihope_PikestoneFell 2022/23
+  [7/54] Bollihope_PikestoneFell 2023/24
+  [8/54] Bollihope_PikestoneFell 2024/25
+  [9/54] Bollihope_PikestoneFell 2025/26
+  [10/54] Crossgill_Dowks 2017/18
+  [11/54] Crossgill_Dowks 2018/19
+  [12/54] Crossgill_Dowks 2019/20
+  [13/54] Crossgill_Dowks 2020/21
+  [14/54] Crossgill_Dowks 2021/22
+  [15/54] Crossgill_Dowks 2022/23
+  [16/54] Crossgill_Dowks 2023/24
+  [17/54] Crossgill_Dowks 2024/25
+  [18/54] Crossgill_Dowks 2025/26
+  [19/54] Edmundbyers_Waskerley 2017/18
+  [20/54] Edmundbyers_Waskerley 2018/19
+  [21/54] Edmundbyers_Waskerley 2019/20
+  [22/54] Edmundbyers_Waskerley 2020/21
+  [23/54] Edmundbyers_Waskerley 2021/22
+  [24/54] Edmundbyers_Waskerley 2022/23
+  [25/54] Edmundbyers_Waskerley 2023/24
+  [26/54] Edmundbyers_Waskerley 2024/25
+  [27/54] Edmundbyers_Waskerley 2025/26
+  [28/54] Geltsdale_Middle 2017/18
+  [29/54] Geltsdale_Middle 2018/19
+  [30/54] Geltsdale_Middle 2019/20
+  [31/54] Geltsdale_Middle 2020/21
+  [32/54] Geltsdale_Middle 2021/22
+  [33/54] Geltsdale_Middle 2022/23
+  [34/54] Geltsdale_Middle 2023/24
+  [35/54] Geltsdale_Middle 2024/25
+  [36/54] Geltsdale_Middle 2025/26
+  [37/54] MoorHouse_BehindHouse 2017/18
+  [38/54] MoorHouse_BehindHouse 2018/19
+  [39/54] MoorHouse_BehindHouse 2019/20
+  [40/54] MoorHouse_BehindHouse 2020/21
+  [41/54] MoorHouse_BehindHouse 2021/22
+  [42/54] MoorHouse_BehindHouse 2022/23
+  [43/54] MoorHouse_BehindHouse 2023/24
+  [44/54] MoorHouse_BehindHouse 2024/25
+  [45/54] MoorHouse_BehindHouse 2025/26
+  [46/54] Snilesworth_Lodge 2017/18
+  [47/54] Snilesworth_Lodge 2018/19
+  [48/54] Snilesworth_Lodge 2019/20
+  [49/54] Snilesworth_Lodge 2020/21
+  [50/54] Snilesworth_Lodge 2021/22
+  [51/54] Snilesworth_Lodge 2022/23
+  [52/54] Snilesworth_Lodge 2023/24
+  [53/54] Snilesworth_Lodge 2024/25
+  [54/54] Snilesworth_Lodge 2025/26
+Images in outputs_images/images

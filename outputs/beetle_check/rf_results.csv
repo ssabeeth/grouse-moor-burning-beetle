@@ -1,0 +1,7 @@
+method,typical_error,within_0.2,within_0.1,rank_r,rank_r_N.DALES_only
+Current method (unfitted share flagged),0.122,19,12,0.81,0.5
+"RF regression, change only",0.155,17,7,0.81,0.56
+"RF classifier, change only",0.132,16,13,0.79,0.61
+"RF regression, change + 2024 levels",0.163,17,7,0.75,0.52
+"RF classifier, change + 2024 levels",0.137,15,13,0.77,0.58
+Combined (current + RF classifier),0.106,19,15,0.88,0.64

@@ -1,0 +1,10 @@
+Polygons: 29 features | moor field 'Moor' | count field 'Count' | CRS EPSG:27700
+  28 count areas, 4,273 ha total, 16 moors (+ 1 strip rows, 371 ha, kept out of totals)
+Earth Engine initialised (project burn-502316)
+Season 2024/25 ...
+  252.3 ha managed | 103 post-season scenes | 85s
+Wrote outputs_no_s2c/results_by_season.csv (29 rows)
+Boundary sensitivity in outputs_no_s2c/summary_boundary_sensitivity.csv
+/Users/syedsabeeth/Documents/projects/Burning/claude_code_kit/burn_pipeline.py:517: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all Axes decorations.
+  ax.set_xticklabels(seasons)
+Charts in outputs_no_s2c/figures; summaries in outputs_no_s2c

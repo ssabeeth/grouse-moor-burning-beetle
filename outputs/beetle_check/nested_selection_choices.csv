@@ -1,0 +1,16 @@
+,model_chosen
+Geltsdale,"Gradient boosting (histogram, LightGBM-style)"
+Bollihope,SVM (RBF kernel)
+Crossgill,Gradient boosting (classic)
+Stags Fell,Gradient boosting (classic)
+Edmundbyers,Gradient boosting (classic)
+Moor House,"Gradient boosting (histogram, LightGBM-style)"
+Wemmergill,"Gradient boosting (histogram, LightGBM-style)"
+Ramsgill,Gradient boosting (classic)
+Eggleston,SVM (RBF kernel)
+Danby,Gradient boosting (classic)
+Westerdale,Gradient boosting (classic)
+Rosedale,Gradient boosting (classic)
+Dallowgill,SVM (RBF kernel)
+Swinton,Gradient boosting (classic)
+Snilesworth,Gradient boosting (classic)

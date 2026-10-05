@@ -1,0 +1,440 @@
+{
+  "count_areas": 28,
+  "moors": 16,
+  "area_ha": 4273,
+  "seasons": 9,
+  "first_season": "2017/18",
+  "last_season": "2025/26",
+  "mean_ha_per_yr": 171,
+  "mean_pct_per_yr": 4.0,
+  "season_max": "2024/25",
+  "season_min": "2020/21",
+  "pre2021_mean_ha": 158,
+  "post2021_mean_ha": 155,
+  "s2c": {
+    "with_ha": 280,
+    "without_ha": 252,
+    "change_pct": -10,
+    "next_highest_ha": 201,
+    "rank_r": 0.97
+  },
+  "regions": {
+    "Dales / Nidderdale": 3.7,
+    "North Pennines": 3.7,
+    "North York Moors": 6.4
+  },
+  "shewring": {
+    "North York Moors": 6.3,
+    "North Pennines": 2.7
+  },
+  "nym_np_ratio": 1.75,
+  "controls": {
+    "Moor House": 0.08,
+    "Geltsdale": 0.98,
+    "Crossgill": 0.26,
+    "Wemmergill": 0.23
+  },
+  "thresholds": {
+    "0.13": {
+      "total_change_pct": 61,
+      "season_rank_r": 0.97,
+      "moor_rank_r": 0.98,
+      "nym_np_ratio": 1.64,
+      "post_pre_ratio": 1.03,
+      "moor_house": 0.65,
+      "geltsdale": 4.5
+    },
+    "0.15": {
+      "total_change_pct": 25,
+      "season_rank_r": 0.98,
+      "moor_rank_r": 0.99,
+      "nym_np_ratio": 1.72,
+      "post_pre_ratio": 1.0,
+      "moor_house": 0.23,
+      "geltsdale": 1.96
+    },
+    "0.17": {
+      "total_change_pct": 0,
+      "season_rank_r": 1.0,
+      "moor_rank_r": 1.0,
+      "nym_np_ratio": 1.75,
+      "post_pre_ratio": 0.98,
+      "moor_house": 0.08,
+      "geltsdale": 0.98
+    },
+    "0.19": {
+      "total_change_pct": -20,
+      "season_rank_r": 0.93,
+      "moor_rank_r": 1.0,
+      "nym_np_ratio": 1.78,
+      "post_pre_ratio": 0.97,
+      "moor_house": 0.02,
+      "geltsdale": 0.55
+    }
+  },
+  "eggleston": {
+    "count_areas": 5.2,
+    "whole_block": 5.3,
+    "np_count_areas": 3.7,
+    "np_whole_block": 3.9
+  },
+  "v5": {
+    "shared_count_areas": 27,
+    "pct_v5": 4.1,
+    "pct_v6": 4.03,
+    "unchanged_red_ha": 211,
+    "unchanged_blue_ha": 65,
+    "unchanged_v6_ha": 291,
+    "zero_share_v5": 39,
+    "zero_share_v6": 24
+  },
+  "waskerley": {
+    "2017/18": 36.7,
+    "2018/19": 0.1,
+    "2019/20": 11.6,
+    "2020/21": 0.1,
+    "2021/22": 41.5,
+    "2022/23": 0.0,
+    "2023/24": 0.5,
+    "2024/25": 40.0,
+    "2025/26": 1.8
+  },
+  "pikestone_2022": 41.1,
+  "grinton_2024_images": 1.3,
+  "median_images": 7.45,
+  "beetle_management": {
+    "2023/24": {
+      "r_level": 0.7,
+      "r_vs_usual": 0.23
+    },
+    "2024/25": {
+      "r_level": 0.55,
+      "r_vs_usual": 0.12
+    },
+    "2025/26": {
+      "r_level": 0.33,
+      "r_vs_usual": -0.4
+    }
+  },
+  "beetle_survey": {
+    "n_scored": 23,
+    "n_good_images": 22,
+    "mae": 0.12,
+    "within_0.2": 19,
+    "within_0.1": 12,
+    "rank_r": 0.81,
+    "raw_mae": 0.27,
+    "raw_rank_r": 0.6,
+    "low_damage_bias": 0.15,
+    "region_only_mae": 0.17,
+    "models": [
+      {
+        "variant": "v0_original",
+        "sites": "all",
+        "estimate": "calibrated (leave-one-moor-out)",
+        "n": 23,
+        "MAE": 0.147,
+        "bias": -0.002,
+        "within_0.1": 0.35,
+        "within_0.2": 0.74,
+        "spearman": 0.7
+      },
+      {
+        "variant": "v0_original",
+        "sites": "all",
+        "estimate": "uncalibrated share flagged",
+        "n": 23,
+        "MAE": 0.132,
+        "bias": 0.099,
+        "within_0.1": 0.52,
+        "within_0.2": 0.87,
+        "spearman": 0.82
+      },
+      {
+        "variant": "v0_original",
+        "sites": "enough images",
+        "estimate": "calibrated (leave-one-moor-out)",
+        "n": 22,
+        "MAE": 0.133,
+        "bias": 0.003,
+        "within_0.1": 0.45,
+        "within_0.2": 0.77,
+        "spearman": 0.76
+      },
+      {
+        "variant": "v0_original",
+        "sites": "enough images",
+        "estimate": "uncalibrated share flagged",
+        "n": 22,
+        "MAE": 0.134,
+        "bias": 0.108,
+        "within_0.1": 0.5,
+        "within_0.2": 0.86,
+        "spearman": 0.83
+      },
+      {
+        "variant": "v1_edges",
+        "sites": "all",
+        "estimate": "calibrated (leave-one-moor-out)",
+        "n": 23,
+        "MAE": 0.149,
+        "bias": -0.004,
+        "within_0.1": 0.39,
+        "within_0.2": 0.74,
+        "spearman": 0.69
+      },
+      {
+        "variant": "v1_edges",
+        "sites": "all",
+        "estimate": "uncalibrated share flagged",
+        "n": 23,
+        "MAE": 0.123,
+        "bias": 0.086,
+        "within_0.1": 0.48,
+        "within_0.2": 0.87,
+        "spearman": 0.81
+      },
+      {
+        "variant": "v1_edges",
+        "sites": "enough images",
+        "estimate": "calibrated (leave-one-moor-out)",
+        "n": 22,
+        "MAE": 0.125,
+        "bias": 0.004,
+        "within_0.1": 0.5,
+        "within_0.2": 0.77,
+        "spearman": 0.76
+      },
+      {
+        "variant": "v1_edges",
+        "sites": "enough images",
+        "estimate": "uncalibrated share flagged",
+        "n": 22,
+        "MAE": 0.123,
+        "bias": 0.095,
+        "within_0.1": 0.5,
+        "within_0.2": 0.86,
+        "spearman": 0.81
+      },
+      {
+        "variant": "v2_edges_evergreen",
+        "sites": "all",
+        "estimate": "calibrated (leave-one-moor-out)",
+        "n": 23,
+        "MAE": 0.192,
+        "bias": -0.01,
+        "within_0.1": 0.22,
+        "within_0.2": 0.61,
+        "spearman": 0.56
+      },
+      {
+        "variant": "v2_edges_evergreen",
+        "sites": "all",
+        "estimate": "uncalibrated share flagged",
+        "n": 23,
+        "MAE": 0.152,
+        "bias": 0.102,
+        "within_0.1": 0.39,
+        "within_0.2": 0.74,
+        "spearman": 0.77
+      },
+      {
+        "variant": "v2_edges_evergreen",
+        "sites": "enough images",
+        "estimate": "calibrated (leave-one-moor-out)",
+        "n": 22,
+        "MAE": 0.174,
+        "bias": -0.004,
+        "within_0.1": 0.32,
+        "within_0.2": 0.68,
+        "spearman": 0.63
+      },
+      {
+        "variant": "v2_edges_evergreen",
+        "sites": "enough images",
+        "estimate": "uncalibrated share flagged",
+        "n": 22,
+        "MAE": 0.151,
+        "bias": 0.114,
+        "within_0.1": 0.41,
+        "within_0.2": 0.73,
+        "spearman": 0.77
+      }
+    ]
+  },
+  "beetle_rf": {
+    "rule": {
+      "typical_error": 0.122,
+      "within_0.2": 19.0,
+      "within_0.1": 12.0,
+      "rank_r": 0.81,
+      "rank_r_N.DALES_only": 0.5
+    },
+    "rf_classifier": {
+      "typical_error": 0.132,
+      "within_0.2": 16.0,
+      "within_0.1": 13.0,
+      "rank_r": 0.79,
+      "rank_r_N.DALES_only": 0.61
+    },
+    "rf_regression": {
+      "typical_error": 0.155,
+      "within_0.2": 17.0,
+      "within_0.1": 7.0,
+      "rank_r": 0.81,
+      "rank_r_N.DALES_only": 0.56
+    },
+    "rf_with_levels": {
+      "typical_error": 0.137,
+      "within_0.2": 15.0,
+      "within_0.1": 13.0,
+      "rank_r": 0.77,
+      "rank_r_N.DALES_only": 0.58
+    },
+    "combined": {
+      "typical_error": 0.106,
+      "within_0.2": 19.0,
+      "within_0.1": 15.0,
+      "rank_r": 0.88,
+      "rank_r_N.DALES_only": 0.64
+    },
+    "red_edge_share_of_top10": 4,
+    "trout_beck": {
+      "satellite_estimate": 0.55,
+      "RF classifier, change only": 0.08,
+      "Combined (current + RF classifier)": 0.32
+    }
+  },
+  "beetle_gb": {
+    "trout_beck_alone": 0.046,
+    "trout_beck_combined": 0.298,
+    "low_damage_bias": 0.109,
+    "red_edge_in_top10": 4,
+    "region_holdout": [
+      {
+        "estimate": "rule",
+        "typical_error": 0.075,
+        "combined_typical_error": 0.075
+      },
+      {
+        "estimate": "main model, leave-one-moor-out",
+        "typical_error": 0.124,
+        "combined_typical_error": 0.059
+      },
+      {
+        "estimate": "main model, whole region held out",
+        "typical_error": 0.215,
+        "combined_typical_error": 0.072
+      }
+    ],
+    "nested": [
+      {
+        "procedure": "nested: best of six chosen inside each fold, averaged with rule",
+        "typical_error": 0.105,
+        "within_0.2": 19,
+        "within_0.1": 15,
+        "rank_r": 0.85,
+        "rank_r_N.DALES_only": 0.59,
+        "vs_rule_90pc": "-0.045 to +0.011"
+      }
+    ],
+    "nested_choices": {
+      "Gradient boosting (classic)": 9,
+      "Gradient boosting (histogram, LightGBM-style)": 3,
+      "SVM (RBF kernel)": 3
+    }
+  },
+  "beetle_models": [
+    {
+      "model": "Rule-based estimate (no model)",
+      "combined_with_rule": false,
+      "typical_error": 0.122,
+      "within_0.1": 12,
+      "vs_rule_90pc": NaN
+    },
+    {
+      "model": "Random Forest",
+      "combined_with_rule": false,
+      "typical_error": 0.141,
+      "within_0.1": 12,
+      "vs_rule_90pc": "-0.035 to +0.067"
+    },
+    {
+      "model": "Random Forest",
+      "combined_with_rule": true,
+      "typical_error": 0.109,
+      "within_0.1": 14,
+      "vs_rule_90pc": "-0.043 to +0.013"
+    },
+    {
+      "model": "Extra Trees",
+      "combined_with_rule": false,
+      "typical_error": 0.161,
+      "within_0.1": 9,
+      "vs_rule_90pc": "-0.016 to +0.088"
+    },
+    {
+      "model": "Extra Trees",
+      "combined_with_rule": true,
+      "typical_error": 0.118,
+      "within_0.1": 11,
+      "vs_rule_90pc": "-0.032 to +0.022"
+    },
+    {
+      "model": "Gradient boosting (histogram, LightGBM-style)",
+      "combined_with_rule": false,
+      "typical_error": 0.122,
+      "within_0.1": 10,
+      "vs_rule_90pc": "-0.055 to +0.050"
+    },
+    {
+      "model": "Gradient boosting (histogram, LightGBM-style)",
+      "combined_with_rule": true,
+      "typical_error": 0.101,
+      "within_0.1": 15,
+      "vs_rule_90pc": "-0.049 to +0.006"
+    },
+    {
+      "model": "Gradient boosting (classic)",
+      "combined_with_rule": false,
+      "typical_error": 0.118,
+      "within_0.1": 10,
+      "vs_rule_90pc": "-0.058 to +0.044"
+    },
+    {
+      "model": "Gradient boosting (classic)",
+      "combined_with_rule": true,
+      "typical_error": 0.098,
+      "within_0.1": 15,
+      "vs_rule_90pc": "-0.053 to +0.003"
+    },
+    {
+      "model": "SVM (RBF kernel)",
+      "combined_with_rule": false,
+      "typical_error": 0.124,
+      "within_0.1": 11,
+      "vs_rule_90pc": "-0.055 to +0.053"
+    },
+    {
+      "model": "SVM (RBF kernel)",
+      "combined_with_rule": true,
+      "typical_error": 0.102,
+      "within_0.1": 15,
+      "vs_rule_90pc": "-0.049 to +0.008"
+    },
+    {
+      "model": "Logistic regression",
+      "combined_with_rule": false,
+      "typical_error": 0.151,
+      "within_0.1": 9,
+      "vs_rule_90pc": "-0.026 to +0.082"
+    },
+    {
+      "model": "Logistic regression",
+      "combined_with_rule": true,
+      "typical_error": 0.109,
+      "within_0.1": 13,
+      "vs_rule_90pc": "-0.043 to +0.018"
+    }
+  ]
+}

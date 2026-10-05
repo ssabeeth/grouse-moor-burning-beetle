@@ -1,0 +1,4 @@
+estimate,typical_error,combined_typical_error
+rule,0.075,0.075
+"main model, leave-one-moor-out",0.124,0.059
+"main model, whole region held out",0.215,0.072

@@ -1,0 +1,95 @@
+% Shared style for the heather management reports (report_v6.tex, beetle_report.tex).
+% Each report defines \reporthead and \reportdate before \input{style}.
+% ---------------------------------------------------------------- fonts and language
+\usepackage{amsmath}
+\usepackage{fontspec}
+\usepackage{unicode-math}
+\setmainfont{texgyrepagella}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,
+  ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\setsansfont{Helvetica Neue}
+\setmathfont{texgyrepagella-math.otf}
+\usepackage[british]{babel}
+\usepackage{microtype}
+
+% ---------------------------------------------------------------- page
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.4cm,right=2.4cm,headheight=14pt]{geometry}
+\setlength{\parskip}{0.55em}
+\setlength{\parindent}{0pt}
+\linespread{1.06}
+
+\usepackage{xcolor}
+\definecolor{accent}{HTML}{1F4E79}
+\definecolor{accentlight}{HTML}{EEF3F9}
+\definecolor{muted}{HTML}{5F6B7A}
+\definecolor{rulegrey}{HTML}{B8C2CC}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\footnotesize\color{muted}\reporthead}
+\fancyhead[R]{\sffamily\footnotesize\color{muted}\reportdate}
+\fancyfoot[C]{\sffamily\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{rulegrey}\leaders\hrule height \headrulewidth\hfill}}
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[C]{\sffamily\footnotesize\thepage}\renewcommand{\headrulewidth}{0pt}}
+
+% ---------------------------------------------------------------- headings and contents
+\usepackage{titlesec}
+\titleformat{\section}{\sffamily\Large\bfseries\color{accent}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\sffamily\large\bfseries\color{accent}}{\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}{\sffamily\normalsize\bfseries}{\thesubsubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{1.8em}{0.6em}
+\titlespacing*{\subsection}{0pt}{1.3em}{0.4em}
+\titlespacing*{\subsubsection}{0pt}{1.0em}{0.2em}
+
+\usepackage{tocloft}
+\renewcommand{\cfttoctitlefont}{\sffamily\Large\bfseries\color{accent}}
+\renewcommand{\cftsecfont}{\sffamily\bfseries}
+\renewcommand{\cftsecpagefont}{\sffamily\bfseries}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\setlength{\cftbeforesecskip}{0.2em}
+\setlength{\cftbeforetoctitleskip}{0pt}
+\setlength{\cftaftertoctitleskip}{0.8em}
+\renewcommand{\cftsubsecfont}{\small}
+\renewcommand{\cftsubsecpagefont}{\small}
+\setlength{\cftbeforesubsecskip}{0pt}
+\setcounter{tocdepth}{2}
+
+% ---------------------------------------------------------------- floats, tables, lists
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\usepackage{booktabs,tabularx,array,threeparttable,makecell}
+\renewcommand{\arraystretch}{1.18}
+\setlength{\aboverulesep}{0.3ex}
+\setlength{\belowrulesep}{0.5ex}
+\usepackage{caption}
+\captionsetup{font=small,labelfont={bf,sf,color=accent},labelsep=period,justification=justified,
+  singlelinecheck=false,skip=6pt}
+\captionsetup[table]{position=top}
+\usepackage{float}
+\usepackage[section]{placeins}
+\usepackage{needspace}
+\usepackage{enumitem}
+\setlist{itemsep=0.25em,topsep=0.3em,parsep=0pt,leftmargin=1.3em}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+
+% ---------------------------------------------------------------- boxes and diagrams
+\usepackage[most]{tcolorbox}
+\newtcolorbox{keybox}[1]{enhanced,breakable,colback=accentlight,colframe=accent,boxrule=0.6pt,arc=1.5pt,
+  left=9pt,right=9pt,top=7pt,bottom=7pt,fonttitle=\sffamily\bfseries,coltitle=white,title=#1}
+\newtcolorbox{notebox}{enhanced,colback=white,colframe=rulegrey,boxrule=0.5pt,arc=1.5pt,
+  left=8pt,right=8pt,top=5pt,bottom=5pt}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta}
+
+% ---------------------------------------------------------------- references and links
+\usepackage[round,authoryear]{natbib}
+\setlength{\bibsep}{0.35em}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=accent,citecolor=accent,urlcolor=accent}
+
+\newcommand{\figref}[1]{Figure~\ref{#1}}
+\newcommand{\tabref}[1]{Table~\ref{#1}}
+\newcommand{\secref}[1]{Section~\ref{#1}}
+\newcommand{\appref}[1]{Appendix~\ref{#1}}
+

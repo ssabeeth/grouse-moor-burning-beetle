@@ -1,0 +1,16 @@
+variant,measure,n,spearman_r,p_perm
+v0_original,dNBR_summer25_vs_24,23,-0.52,0.0106
+v0_original,dSat_late_vs_early_2025,23,-0.6,0.0029
+v0_original,dNBR_summer26_vs_24,23,-0.11,0.6292
+v0_original,dSat_summer25_vs_24,23,-0.6,0.0034
+v0_original,share_flagged,23,0.82,0.0
+v1_edges,dNBR_summer25_vs_24,23,-0.48,0.0221
+v1_edges,dSat_late_vs_early_2025,23,-0.61,0.0023
+v1_edges,dNBR_summer26_vs_24,23,-0.08,0.7098
+v1_edges,dSat_summer25_vs_24,23,-0.6,0.003
+v1_edges,share_flagged,23,0.81,0.0
+v2_edges_evergreen,dNBR_summer25_vs_24,23,-0.51,0.0144
+v2_edges_evergreen,dSat_late_vs_early_2025,23,-0.46,0.0274
+v2_edges_evergreen,dNBR_summer26_vs_24,23,-0.25,0.2394
+v2_edges_evergreen,dSat_summer25_vs_24,23,-0.52,0.013
+v2_edges_evergreen,share_flagged,23,0.77,0.0

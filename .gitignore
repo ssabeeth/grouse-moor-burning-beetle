@@ -1,0 +1,20 @@
+# Not for the repository
+CLAUDE.md
+drafts/
+reference/phil_feedback.txt
+
+# Environment and caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# LaTeX build files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.xdv
+!logs/*.log
