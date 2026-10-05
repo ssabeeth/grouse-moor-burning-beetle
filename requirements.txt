@@ -8,3 +8,6 @@ pyproj
 requests
 pillow
 openpyxl
+scikit-learn>=1.3     # beetle models
+joblib                # parallel nested test in beetle_model_compare.py
+pymupdf               # page checks when building the reports

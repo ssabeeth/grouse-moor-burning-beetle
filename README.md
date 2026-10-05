@@ -31,7 +31,7 @@ Internal file names use v5 for version 1 and v6 for version 2.
 
 ```bash
 python3.12 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt scikit-learn pymupdf
+pip install -r requirements.txt
 earthengine authenticate --scopes=https://www.googleapis.com/auth/earthengine,https://www.googleapis.com/auth/cloud-platform
 export GEE_PROJECT=<your Earth Engine project>
 
